@@ -19,7 +19,7 @@ function Home() {
 
   useEffect(() => {
     const amounts = expenses.map((item)=>item.amount);
-    console.log(amounts);
+    // console.log(amounts);
     const income = amounts.filter(item => item > 0 )
     .reduce((acc,item)=>(acc += item), 0);
     console.log('Income:',income);
@@ -27,7 +27,7 @@ function Home() {
 
     const expense = amounts.filter(item => item < 0 )
     .reduce((acc,item)=>(acc += item), 0) * -1;
-    console.log('expense:',expense);
+    // console.log('expense:',expense);
 
     setIncomeAmt(income);
     setExpenseAmt(expense);
