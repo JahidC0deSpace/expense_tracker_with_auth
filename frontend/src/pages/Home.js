@@ -22,7 +22,7 @@ function Home() {
     // console.log(amounts);
     const income = amounts.filter(item => item > 0 )
     .reduce((acc,item)=>(acc += item), 0);
-    console.log('Income:',income);
+    // console.log('Income:',income);
 
 
     const expense = amounts.filter(item => item < 0 )
