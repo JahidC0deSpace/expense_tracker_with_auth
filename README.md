@@ -10,7 +10,6 @@ Built with scalability and data security in mind — your finances, simplified.
 
 - 🔐 **User Authentication** – Secure registration and login using **JWT** and **bcrypt**
 - 💵 **Add Transactions** – Easily add income or expense entries
-- 🗂️ **Categorization** – Organize expenses by category (e.g., Food, Transport, Bills)
 - 📊 **Dashboard & Analytics** – View total income, expenses, and balance summary
 - ✏️ **Edit & Delete** – Update or remove transactions anytime
 - 💾 **Persistent Storage** – All data securely stored in **MongoDB**
