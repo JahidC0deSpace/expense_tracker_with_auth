@@ -19,7 +19,7 @@ Built with scalability and data security in mind — your finances, simplified.
 
 ## 🧰 Tech Stack
 
-**Frontend:** React.js, Redux Toolkit, Axios, Tailwind CSS  
+**Frontend:** React.js, Redux Toolkit,CSS  
 **Backend:** Node.js, Express.js  
 **Database:** MongoDB with Mongoose  
 **Authentication:** JWT, bcrypt.js  
